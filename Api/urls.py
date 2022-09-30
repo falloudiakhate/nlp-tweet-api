@@ -8,9 +8,9 @@ from rest_framework_swagger.renderers import SwaggerUIRenderer, OpenAPIRenderer
 from rest_framework_swagger.views import get_swagger_view
 
 
-schema_view = get_schema_view(title='Wolotify API', renderer_classes=[OpenAPIRenderer, SwaggerUIRenderer])
+schema_view = get_schema_view(title='NLP TWEET API', renderer_classes=[OpenAPIRenderer, SwaggerUIRenderer])
 
-schema_view = get_swagger_view(title='Wolotify API')
+schema_view = get_swagger_view(title='NLP TWEET API')
 
 
 urlpatterns = [
