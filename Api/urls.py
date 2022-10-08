@@ -16,8 +16,7 @@ schema_view = get_swagger_view(title='NLP TWEET API')
 urlpatterns = [
     
     path('docs', schema_view, name="docs"),
-    # path('translate/single', views.transalteToWolofServiceSingle, name="transalteToWolofServiceSingle"),
-    # path('translate/multiple', views.transalteToWolofServiceMultiple, name="transalteToWolofServiceMultiple"),
+    path('sentiment-analysis', views.sentimentAnlysis, name="sentimentAnlysis"),
 
 
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
