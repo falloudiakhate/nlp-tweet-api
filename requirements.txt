@@ -1,3 +1,8 @@
+Django==4.1.1
+django-cors-headers==3.13.0
+django-filter==22.1
+django-rest-swagger==2.2.0
+djangorestframework==3.13.1
 absl-py==1.2.0
 asgiref==3.5.2
 astunparse==1.6.3
@@ -56,3 +61,5 @@ uritemplate==4.1.1
 urllib3==1.26.12
 Werkzeug==2.2.2
 wrapt==1.14.1
+
+
